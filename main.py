@@ -55,7 +55,6 @@ class AddEdit(QDialog):
             self.spinBox.setValue(data[0][5])
             self.spinBox_2.setValue(data[0][6])
             if self.comboBox.currentText() != data[0][3]:
-                print(data[0][3])
                 self.comboBox.setItemText(1, self.comboBox.currentText())
                 self.comboBox.setItemText(0, data[0][3])
 
